@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./tasks.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap"
+    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="dashboard-httpsbitlyavi">
+      <section class="product">
+        <img class="product-child" alt="" src="./public/rectangle-30.svg" />
+
+        <!-- -----------------------------New Div--------------------------- -->
+        <div class="body">
+          <div class="tasks-view-results">
+            <div class="info-and-filters">
+              <div class="total">
+                <b class="total-info">Total:</b>
+                <b class="total-info">23</b>
+                <b class="total-info">tasks</b>
+              </div>
+              <div class="sort-by">
+                <div class="sort-by-due">Sort by: Due Date</div>
+                <img
+                  class="vuesaxoutlinearrow-down-icon"
+                  alt=""
+                  src="./public/vuesaxoutlinearrowdown.svg"
+                />
+              </div>
+              <div class="filter">
+                <div class="sort-by-due">Filter</div>
+                <img
+                  class="vuesaxoutlinearrow-down-icon"
+                  alt=""
+                  src="./public/vuesaxoutlinefilteradd.svg"
+                />
+              </div>
+            </div>
+            <div class="task-list">
+              <div class="table-header">
+                <div class="columns">
+                  <img class="icon3" alt="" src="./public/icon3.svg" />
+  
+                  <div class="name-column">
+                    <div class="due-date">Due Date</div>
+                  </div>
+                  <div class="email-column">
+                    <div class="due-date">Task</div>
+                  </div>
+                  <div class="edit-column">
+                    <div class="edit">Edit</div>
+                  </div>
+                </div>
+                <div class="border"></div>
+              </div>
+              <div class="task-row-repeat-link" id="taskRowRepeatLink">
+                <div class="cells">
+                  <img
+                    class="check-cell-icon"
+                    alt=""
+                    src="./public/check-cell1.svg"
+                  />
+  
+                  <div class="name-column">
+                    <div class="date-layout-visibility">
+                      <div class="date">14 Nov 2021</div>
+                    </div>
+                    <div class="date-overdue-layout-visibil">
+                      <div class="date">14 Nov 2021</div>
+                    </div>
+                  </div>
+                  <div class="description">Description goes here</div>
+                  <img
+                    class="edit-cell-icon"
+                    alt=""
+                    src="./public/edit-cell.svg"
+                  />
+                </div>
+                <div class="border1"></div>
+              </div>
+              <div class="task-row-repeat-link">
+                <div class="cells">
+                  <img
+                    class="check-cell-icon"
+                    alt=""
+                    src="./public/check-cell1.svg"
+                  />
+  
+                  <div class="name-column">
+                    <div class="date2">
+                      <div class="date">24 Dec 2021</div>
+                    </div>
+                    <div class="date-overdue-layout-visibil">
+                      <div class="date">24 Dec 2021</div>
+                    </div>
+                  </div>
+                  <div class="description">Web conference agenda (overdue)</div>
+                  <img
+                    class="edit-cell-icon"
+                    alt=""
+                    src="./public/edit-cell.svg"
+                  />
+                </div>
+                <div class="border1"></div>
+              </div>
+              <div class="task-row-repeat-link">
+                <div class="cells">
+                  <img
+                    class="check-cell-icon"
+                    alt=""
+                    src="./public/check-cell2.svg"
+                  />
+  
+                  <div class="name-column">
+                    <div class="date-layout-visibility">
+                      <div class="date">24 Nov 2022</div>
+                    </div>
+                    <div class="date-overdue1">
+                      <div class="date">14 Nov 2021</div>
+                    </div>
+                  </div>
+                  <div class="description">Meeting with partners</div>
+                  <img
+                    class="edit-cell-icon"
+                    alt=""
+                    src="./public/edit-cell.svg"
+                  />
+                </div>
+                <div class="border1"></div>
+              </div>
+              <div class="task-row-repeat-link">
+                <div class="cells">
+                  <img
+                    class="check-cell-icon"
+                    alt=""
+                    src="./public/check-cell2.svg"
+                  />
+  
+                  <div class="name-column">
+                    <div class="date-layout-visibility">
+                      <div class="date">24 Nov 2022</div>
+                    </div>
+                    <div class="date-overdue1">
+                      <div class="date">14 Nov 2021</div>
+                    </div>
+                  </div>
+                  <div class="description">Add new services</div>
+                  <img
+                    class="edit-cell-icon"
+                    alt=""
+                    src="./public/edit-cell.svg"
+                  />
+                </div>
+                <div class="border1"></div>
+              </div>
+              <div class="task-row-repeat-link">
+                <div class="cells">
+                  <img
+                    class="check-cell-icon"
+                    alt=""
+                    src="./public/check-cell2.svg"
+                  />
+  
+                  <div class="name-column">
+                    <div class="date-layout-visibility">
+                      <div class="date">24 Nov 2022</div>
+                    </div>
+                    <div class="date-overdue1">
+                      <div class="date">14 Nov 2021</div>
+                    </div>
+                  </div>
+                  <div class="description">
+                    Upload new legals (terms & conditions)
+                  </div>
+                  <img
+                    class="edit-cell-icon"
+                    alt=""
+                    src="./public/edit-cell.svg"
+                  />
+                </div>
+                <div class="border1"></div>
+              </div>
+              <div class="task-row-repeat-link">
+                <div class="cells">
+                  <img
+                    class="check-cell-icon"
+                    alt=""
+                    src="./public/check-cell1.svg"
+                  />
+  
+                  <div class="name-column">
+                    <div class="date-layout-visibility">
+                      <div class="date">24 Nov 2022</div>
+                    </div>
+                    <div class="date-overdue1">
+                      <div class="date">14 Nov 2021</div>
+                    </div>
+                  </div>
+                  <div class="description">Sales report due</div>
+                  <img
+                    class="edit-cell-icon"
+                    alt=""
+                    src="./public/edit-cell.svg"
+                  />
+                </div>
+                <div class="border1"></div>
+              </div>
+              <div class="task-row-repeat-link">
+                <div class="cells">
+                  <img
+                    class="check-cell-icon"
+                    alt=""
+                    src="./public/check-cell2.svg"
+                  />
+  
+                  <div class="name-column">
+                    <div class="date-layout-visibility">
+                      <div class="date">24 Nov 2022</div>
+                    </div>
+                    <div class="date-overdue1">
+                      <div class="date">14 Nov 2021</div>
+                    </div>
+                  </div>
+                  <div class="description">Description goes here</div>
+                  <img
+                    class="edit-cell-icon"
+                    alt=""
+                    src="./public/edit-cell.svg"
+                  />
+                </div>
+                <div class="border1"></div>
+              </div>
+              <div class="load-more">
+                <button class="button-load-more">
+                  <div class="button10">Load More</div>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------end ---------------------------------- -->
+        
+        </div>
+      </section>
+
+      <!-- Add new Customer button -->
+      <!-- <button class="add-new1" id="addNew">
+        <div class="button17">Add New Customer</div>
+        <img class="icon18" alt="" src="./public/icon5.svg" />
+      </button> -->
+      <!-------------------------------------- Search box -------------------------------------->
+      <div class="search1">
+        <!-- <div class="search-child"></div> -->
+        <input
+        type="text"
+        name="search"
+        id="search"
+        class="search-child"
+        placeholder="Search"
+        />
+        <!-- <div class="search">Search</div> -->
+        <img class="search-icon" alt="" src="./public/search-1.svg" />
+        <a href="#" class="Add-new-customer-btn" id="addNew">Add New Task</a>
+        
+      </div>
+
+      <!-- ----------------------------------------------------------------------------------- -->
+
+      <!--------------------------------------- Side Menu Start --------------------------------->
+      <div class="side-menu">
+        <div class="side-menu-child"></div>
+        <input class="side-menu-item" type="text" />
+
+        <a href="listMenu.html" class="list-menu">
+          <!-- <img
+            class="icon-24-outline-key-squa"
+            alt=""
+            src="./public/vuesaxoutlineprofile2user.svg"
+          /> -->
+          <i class="fa fa-users"></i>
+          <div class="dashboard">Customers</div>
+          <i class="fa fa-angle-right chevron-right-2-icon"></i>
+          <!-- <img
+            class="chevron-right-2-icon"
+            alt=""
+            src="./public/chevronright-2.svg"
+          /> -->
+        
+        </a>
+        <a href="list-menu1.html" class="list-menu1">
+          <img
+            class="icon-24-outline-key-squa"
+            alt=""
+            src="./public/vuesaxoutlinebriefcase.svg"
+          />
+
+          <div class="customers">Deals</div>
+          <img
+            class="chevron-right-2-icon"
+            alt=""
+            src="./public/chevronright-2.svg"
+          />
+        </a>
+        <a href="list-menu2.html" class="list-menu2">
+          <img
+            class="icon-24-outline-key-squa"
+            alt=""
+            src="./public/vuesaxboldtask.svg"
+          />
+
+          <div class="customers">Tasks</div>
+          <img
+            class="chevron-right-2-icon"
+            alt=""
+            src="./public/chevronright-2.svg"
+          />
+        </a>
+        <a href="list-menu3.html" class="list-menu3">
+          <img
+            class="icon-24-outline-key-squa"
+            alt=""
+            src="./public/walletmoney-2.svg"
+          />
+
+          <div class="customers">Communications</div>
+          <img
+            class="chevron-right-2-icon"
+            alt=""
+            src="./public/chevronright-2.svg"
+          />
+        </a>
+        <a href="list-menu3.html" class="list-menu4">
+          <img
+            class="icon-24-outline-key-squa"
+            alt=""
+            src="./public/icon4.svg"
+          />
+
+          <div class="customers">Notifications</div>
+          <img
+            class="chevron-right-2-icon"
+            alt=""
+            src="./public/chevronright-2.svg"
+          />
+        </a>
+        <a href="list-menu4.html" class="list-menu5">
+          <img
+            class="icon-24-outline-key-squa"
+            alt=""
+            src="./public/discountshape-1.svg"
+          />
+
+          <div class="customers">Setting</div>
+          <img
+            class="chevron-right-2-icon"
+            alt=""
+            src="./public/chevronright-2.svg"
+          />
+        </a>
+        <a href="list-menu6.html" class="list-menu6">
+          <img
+            class="icon-24-outline-key-squa"
+            alt=""
+            src="./public/messagequestion-1.svg"
+          />
+
+          <div class="customers">Help</div>
+          <img
+            class="chevron-right-2-icon"
+            alt=""
+            src="./public/chevronright-2.svg"
+          />
+        </a>
+        <img class="side-menu-inner" alt="" src="./public/user_1.png" />
+
+        <div class="kashif-noor-group">
+          <div class="kashif-noor1">Kashif Noor</div>
+          <div class="project-manager">Project Manager</div>
+        </div>
+        <img
+          class="chevron-down-2-icon"
+          alt=""
+          src="./public/chevrondown-2.svg"
+        />
+
+        <div class="access-pro">
+          <div class="access-pro-child"></div>
+          <div class="upgrade-to-pro">
+            Upgrade to PRO to get access all Features!
+          </div>
+          <button class="cta">
+            <div class="cta-child"></div>
+            <div class="get-pro-now">Get Pro Now!</div>
+          </button>
+        </div>
+        <div class="dashboard-parent">
+          <h2 class="dashboard1">Dashboard</h2>
+          <img class="setting-1-icon" alt="" src="./public/setting-1.svg" />
+        </div>
+        <div class="v01">v.01</div>
+      </div>
+
+      <!-- ----------------------------------End Side menu ------------------------------------- -->
+
+      <!-- -------------------------------------user name welcome ------------------------------ -->
+      <h2 class="hello-kashif">Hello Kashif 👋🏼,</h2>
+    </div>
+
+    <div id="addNewTask" class="popup-overlay" style="display: none">
+      <div class="add-new-task">
+        <div class="add-new-task-form-capture">
+          <div class="title1">
+            <b class="add-new-task1">Add New Task</b>
+            <img class="button-icon1" alt="" src="./public/button.svg" />
+          </div>
+          <div class="content-scroll1">
+            <textarea class="task1"> </textarea>
+            <div class="date-time1">
+              <b class="label2">Due Date</b>
+              <input class="input2" type="text" />
+            </div>
+          </div>
+          <div class="action3">
+            <div class="action4">
+              <div class="button6">
+                <div class="button7" id="cancelBtn">Cancel</div>
+              </div>
+              <button class="button8">
+                <div class="button9" id="saveBtn">Save Task</div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script>
+      
+      var addNew = document.getElementById("addNew");
+      if (addNew) {
+        addNew.addEventListener("click", function () {
+          var popup = document.getElementById("addNewTask");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "center";
+            popupStyle.justifyContent = "center";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+
+      var saveBtn = document.getElementById("saveBtn");
+      if (saveBtn) {
+        saveBtn.addEventListener("click", function (e) {
+          window.location.href = "./tasks.html";
+        });
+      }
+      var cancelBtn = document.getElementById("cancelBtn");
+      if (cancelBtn) {
+        cancelBtn.addEventListener("click", function (e) {
+          window.location.href = "./tasks.html";
+        });
+      }
+      </script>
+  </body>
+</html>
